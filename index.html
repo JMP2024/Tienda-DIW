@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCG HUB</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <button class="button1" data-text="Awesome">
+                    <span class="actual-text">&nbsp;TCG HUB&nbsp;</span>
+                    <span aria-hidden="true" class="hover-text">&nbsp;TCG HUB&nbsp;</span>
+                </button>
+            </a>
+        
+            <!-- Barra de búsqueda  -->
+            <div class="search-bar">
+                <form action="#" method="get">
+                    <div class="search-select">
+                        <select name="idioma" id="idioma">
+                            <option value="es">ES</option>
+                            <option value="en">EN</option>
+                            <option value="jp">JP</option>
+                            <option value="itl">ITL</option>
+                            <option value="al">AL</option>
+                        </select>
+                    </div>
+                    <div class="search-select">
+                        <select name="tcg" id="tcg">
+                            <option value="magic">Magic</option>
+                            <option value="yugioh">Yu-Gi-Oh!</option>
+                            <option value="pokemon">Pokémon</option>
+                            <option value="fleshblood">Flesh and Blood</option>
+                        </select>
+                    </div>
+                    <input type="text" placeholder="Buscar cartas..." name="query">
+                    <button type="submit"><span class="material-icons">search</span></button>
+                </form>
+            </div>
+        
+            <ul>
+                <li><a href="#notificaciones"><span class="material-icons">notifications</span></a></li>
+                <li><a href="#usuario"><span class="material-icons">person</span></a></li>
+                <li><a href="#carrito"><span class="material-icons">shopping_cart</span></a></li>
+                <li><a href="#contacto"><span class="material-icons">mail</span></a></li>
+            </ul>
+        </nav>
+        
+        
+        
+        
+    </header>
+
+    <section id="novedades" class="section_novedades">
+        <div class="carousel">
+            <input type="radio" id="slide1" name="slide" checked>
+            <input type="radio" id="slide2" name="slide">
+            <input type="radio" id="slide3" name="slide">
+            
+            <div class="slides">
+                <div class="slide" style="background-image: url('IMG/dusk.avif');"></div>
+                <div class="slide" style="background-image: url('IMG/Bloom.jpg');"></div>
+                <div class="slide" style="background-image: url('IMG/mh3.png');"></div>
+            </div>
+            
+            <!-- Labels para los puntos -->
+            <label for="slide1" class="nav" id="nav1"></label>
+            <label for="slide2" class="nav" id="nav2"></label>
+            <label for="slide3" class="nav" id="nav3"></label>
+        </div>
+    </section>
+    
+    <section id="destacados" class="section destacados">
+        <h2>BEST SELLERS</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="IMG/hydra1.png" alt="Carta 1">
+                <div class="card-info">
+                    <h3>Zaxara the exemplary</h3>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="IMG/hydra 2.jpg" alt="Carta 2">
+                <div class="card-info">
+                    <h3>Hydroid Krasis</h3>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="IMG/hydra3.png" alt="Carta 3">
+                <div class="card-info">
+                    <h3>Gargos Vicious Watcher</h3>
+                    <button>Comprar</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="IMG/hydra4.png" alt="Carta 4">
+                <div class="card-info">
+                    <h3>Unbound Flourishing</h3>
+                    <button>Comprar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="busqueda_avanzada" class="busqueda_avanzada">
+        <h2>BÚSQUEDA AVANZADA</h2>
+        <div class="product-search-container">
+            <!-- Columna de imagen a la izquierda -->
+            <div class="left-column-image">
+                <img src="IMG/Captura de pantalla 2024-09-25 105720.png" alt="Imagen de columna izquierda">
+            </div>
+            <!-- Tarjetas de producto en dos columnas -->
+            <div class="product-cards-container">
+                <div class="product-card">
+                    <img src="IMG/1.webp" alt="Unstoppable Slasher">
+                    <div class="product-info">
+                        <h3>Unstoppable Slasher</h3>
+                        <p>Duskmourn: La casa de los horrores</p>
+                        <p>A partir de: <strong>€4.75</strong></p>
+                        <p class="market-price">Precio de mercado: <strong>€5.50</strong></p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="IMG/3.webp" alt="Thornspire Verge">
+                    <div class="product-info">
+                        <h3>Thornspire Verge</h3>
+                        <p>Duskmourn: La casa de los horrores</p>
+                        <p>A partir de: <strong>€5.26</strong></p>
+                        <p class="market-price">Precio de mercado: <strong>€6.34</strong></p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="IMG/2.jpg" alt="Kaito, Bane of Nightmares">
+                    <div class="product-info">
+                        <h3>Kaito, Bane of Nightmares</h3>
+                        <p>Duskmourn: La casa de los horrores</p>
+                        <p>A partir de: <strong>€8.88</strong></p>
+                        <p class="market-price">Precio de mercado: <strong>€12.77</strong></p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="IMG/4.jpg" alt="Puerto Fontanal">
+                    <div class="product-info">
+                        <h3>Puerto Fontanal</h3>
+                        <p>Bloomburrow</p>
+                        <p>A partir de: <strong>€4.32</strong></p>
+                        <p class="market-price">Precio de mercado: <strong>€5.57</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Nosotros</h3>
+                <ul>
+                    <li><a href="aboutus.html">Quiénes Somos</a></li>
+                    <li><a href="#equipo">Nuestro Equipo</a></li>
+                    <li><a href="#trabaja-con-nosotros">Trabaja con Nosotros</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-column">
+                <h3>Ayuda</h3>
+                <ul>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#envios">Envíos</a></li>
+                    <li><a href="#devoluciones">Devoluciones</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-column">
+                <h3>Redes Sociales</h3>
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fab fa-facebook-f" style="color: #3b5998;"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram" style="color: #C13584;"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter" style="color: #1DA1F2;"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube" style="color: #FF0000;"></i></a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-column">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#terminos">Términos y Condiciones</a></li>
+                    <li><a href="#privacidad">Política de Privacidad</a></li>
+                    <li><a href="#cookies">Política de Cookies</a></li>
+                </ul>
+            </div>
+        </div>
+     </footer>   
+</body>
+</html>

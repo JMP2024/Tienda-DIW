@@ -1,0 +1,145 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #03045e;
+}
+header {
+    background-color: #03045e; 
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    z-index: 1000; /* Asegura que la barra quede por encima del contenido */
+}
+
+/* === removing default button style ===*/
+.button1 {
+  margin: 0;
+  height: auto;
+  background: transparent;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+/* button styling */
+.button1 {
+  --border-right: 6px;
+  --text-stroke-color: rgba(255,255,255,0.6);
+  --animation-color: #37FF8B;
+  --fs-size: 2em;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-size: var(--fs-size);
+  font-family: "Arial";
+  position: relative;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--text-stroke-color);
+}
+/* this is the text, when you hover on button */
+.hover-text {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.09s;
+  -webkit-text-stroke: 1px var(--animation-color);
+}
+/* hover */
+.button1:hover .hover-text {
+  width: 104%;
+  filter: drop-shadow(0 0 23px var(--animation-color))
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.material-icons {
+    vertical-align: middle;
+}
+
+
+/* Contenedor de la carta */
+.card-container {
+    margin-top: 120px;
+    width: 65vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card {
+    font-family: 'Beleren';
+    position: relative;
+    width: 45%; 
+    max-width: 1000px;
+    height: auto;
+    z-index: 2;
+    text-align: center;
+}
+
+/* Contenedor para las imágenes */
+.images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+
+.card-image {
+    width: 100%; 
+    height: auto;
+}
+
+/* Estilos para los textos dentro de la carta */
+.text-area {
+    margin-top: 10px;
+    font-family: 'Beleren';
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.description {
+    font-family: 'Beleren';
+    font-size: 17px;
+    color: white;
+    margin-top: 10px;
+}
