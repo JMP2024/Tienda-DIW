@@ -1,0 +1,11 @@
+Model Information:
+* title:	Kozilek, The Great Distortion - MTG
+* source:	https://sketchfab.com/3d-models/kozilek-the-great-distortion-mtg-833d60ea76964f71b8d694a120c206f7
+* author:	Zemasu (https://sketchfab.com/zemasu)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Kozilek, The Great Distortion - MTG" (https://sketchfab.com/3d-models/kozilek-the-great-distortion-mtg-833d60ea76964f71b8d694a120c206f7) by Zemasu (https://sketchfab.com/zemasu) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

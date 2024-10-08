@@ -1,0 +1,11 @@
+Model Information:
+* title:	Deck Box - Vincent Van Gogh: Starry Night 1889
+* source:	https://sketchfab.com/3d-models/deck-box-vincent-van-gogh-starry-night-1889-77f5214c9eca4d76a9752f7f8c9ec7dc
+* author:	Felipe Carim (Capygon) (https://sketchfab.com/BokuNC)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Deck Box - Vincent Van Gogh: Starry Night 1889" (https://sketchfab.com/3d-models/deck-box-vincent-van-gogh-starry-night-1889-77f5214c9eca4d76a9752f7f8c9ec7dc) by Felipe Carim (Capygon) (https://sketchfab.com/BokuNC) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

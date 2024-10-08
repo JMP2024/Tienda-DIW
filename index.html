@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     
 
 </head>
@@ -47,7 +49,7 @@
         
             <ul>
                 <li><a href="#notificaciones"><span class="material-icons">notifications</span></a></li>
-                <li><a href="#usuario"><span class="material-icons">person</span></a></li>
+                <li><a href="login.html"><span class="material-icons">person</span></a></li>
                 <li><a href="#carrito"><span class="material-icons">shopping_cart</span></a></li>
                 <li><a href="#contacto"><span class="material-icons">mail</span></a></li>
             </ul>
@@ -57,7 +59,7 @@
         
         
     </header>
-
+    
     <section id="novedades" class="section_novedades">
         <div class="carousel">
             <input type="radio" id="slide1" name="slide" checked>
@@ -65,7 +67,7 @@
             <input type="radio" id="slide3" name="slide">
             
             <div class="slides">
-                <div class="slide" style="background-image: url('IMG/dusk.avif');"></div>
+                <div class="slide" style="background-image: url('IMG/dusk.jpg');"></div>
                 <div class="slide" style="background-image: url('IMG/Bloom.jpg');"></div>
                 <div class="slide" style="background-image: url('IMG/mh3.png');"></div>
             </div>
@@ -112,7 +114,7 @@
     </section>
     
     <section id="busqueda_avanzada" class="busqueda_avanzada">
-        <h2>BÚSQUEDA AVANZADA</h2>
+        <h2>ADVANCED SEARCH</h2>
         <div class="product-search-container">
             <!-- Columna de imagen a la izquierda -->
             <div class="left-column-image">
@@ -160,8 +162,26 @@
         </div>
     </section>
     
+    <section id="accesories">
+        <h2> TAKE A LOOK AT OUR ACCESORIES</h2>
+        <div class="accesories-container">
+            <div id="aside2">
+                <model-viewer src="IMG/modelo3D/Dados/scene.gltf" alt="dados" camera-controls ar ios-src="IMG/modelo3D/Dados/scene.gltf"></model-viewer>
+            </div>
+            
+            <div id="aside">
+                <model-viewer src="IMG/modelo3D/Caja/scene.gltf" alt="caja" camera-controls ar ios-src="IMG/modelo3D/Caja/scene.gltf"></model-viewer>
+            </div>
     
+            <div id="aside3">
+                <model-viewer src="IMG/modelo3D/Figura/scene.gltf" alt="figura" camera-controls ar ios-src="IMG/modelo3D/Figura/scene.gltf"></model-viewer>
+            </div>
+        </div>
+    </section>
+    
+   
 
+    
     <footer>
         <div class="footer-container">
             <div class="footer-column">
