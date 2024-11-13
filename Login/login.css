@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'Beleren';
     src: url('IMG/typeface-beleren-bold-master/Beleren2016-Bold.ttf') format('truetype');
+    
 }
 
 * {
@@ -10,15 +11,14 @@
 }
 
 body {
-    font-family: 'Beleren';
-    background-color: #03045e; 
+    background-image: url("../IMG/fondo_pkm.jpg") ;
+    font-family: 'Beleren'; 
     display: flex;
     justify-content: center;
     height: 100vh;
 }
 
 header {
-        background-color: #03045e; 
         color: white;
         padding: 10px 0;
         position: fixed; /* Fija la barra de navegación */

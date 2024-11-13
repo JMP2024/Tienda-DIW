@@ -115,6 +115,7 @@ nav ul li a {
 
 /* Contenedor para las imágenes */
 .images-container {
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,6 +125,7 @@ nav ul li a {
 
 
 .card-image {
+    
     width: 100%; 
     height: auto;
 }
